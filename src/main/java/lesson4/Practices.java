@@ -1,12 +1,15 @@
-package lesson3;
+package lesson4;
 
 public class Practices {
-    public static void main(String[] args) {
-        String str = "Hello", name ="Dmytro";
-        print("Hello","Dima");
+    public String name;
+    public int age;
+    public boolean live;
+    public String sex;
+
+    public void printInfo(){
+        System.out.println("Name = "+name+"\nAge = "+countDay()+"\nSex ="+sex);
     }
-    public static void print (String st, String name){
-        System.out.println(name+ " "+st);
+    private int countDay(){
+        return age*365;
     }
-    
 }

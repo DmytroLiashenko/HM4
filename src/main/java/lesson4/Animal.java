@@ -32,6 +32,7 @@ public class Animal  {
     public void setNoOfLegs(int noOfLegs) {
         this.noOfLegs = noOfLegs;
     }
+
 }
 
 
