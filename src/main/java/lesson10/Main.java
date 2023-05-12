@@ -12,8 +12,10 @@ public class Main {
     public static void sentence(String sentence) {
         String[] words = sentence.split("[\\s\\.,:-]+");
         HashSet<String> newWord = new HashSet<>(Arrays.asList(words));
+
         for (String word : newWord) {
             System.out.println(word.substring(0, 1).toUpperCase() + word.substring(1));
         }
+
     }
 }
