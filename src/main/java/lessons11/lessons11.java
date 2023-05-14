@@ -15,8 +15,8 @@ public class lessons11 {
     }
     public static void printSortMap (Map<Integer,String>map){
         Map<Integer,String> newMap= new TreeMap<>(map);
-        for(Map.Entry<Integer,String> l:newMap.entrySet()){
+        for(Map.Entry<Integer,String> a:newMap.entrySet()){
 
-            System.out.println(l.getKey()+ " = "+ l.getValue());}
+            System.out.println(a.getKey()+ " = "+ a.getValue());}
     }
 }

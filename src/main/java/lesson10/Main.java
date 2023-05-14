@@ -6,7 +6,7 @@ import java.util.HashSet;
 
 public class Main {
     public static void main(String[] args) {
-        sentence("масло, масло, колбаса, молоко. milk: milk milk-milk");
+        sentence("масло, масло, колбаса, молоко. milk: milk milk-milkб ");
     }
 
     public static void sentence(String sentence) {
